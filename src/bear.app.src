@@ -1,7 +1,10 @@
 {application, bear,
  [
   {description, ""},
-  {vsn, git},
+  {vsn, "%VSN%"},
+  {modules, [
+      %MODULES%
+    ]},
   {registered, []},
   {applications, []},
   {env, []}
